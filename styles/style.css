@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+}
+h1 {
+  font-family: Sofia;
+  text-align: center;
+  font-size: 10em;
+  color: palevioletred;
+  text-shadow: 10px 10px 10px rgba(255, 255, 255, 0.479);
+}
+/* img {
+  height: 250px;
+  width: 250px;
+} */
+
+.gameScore {
+  color: palevioletred;
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+}
+
+.cardFront {
+  border: solid pink 3px;
+}
+
+.cardBack {
+  /* background-color: blueviolet; */
+  /* border: solid pink 3px; */
+  height: 300px;
+  width: 300px;
+  /* background-color: antiquewhite; */
+  border: solid black 3px;
+}
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* text-align: center; */
+  margin: 0 auto;
+  width: 80%;
+}
+.points {
+  margin-left: 20px;
+}
+
+#inputName {
+  font-size: 3em;
+  border-radius: 15px;
+  background-color: pink;
+  text-align: center;
+}
+
+#btnStart {
+  border-radius: 10px;
+  background-color: blueviolet;
+  font-size: 2em;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#infosPlayer {
+  display: flex;
+  flex-direction: column;
+}
+
+.startScreen {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.hide {
+  display: none;
+}
+
+.show {
+  display: flex;
+}
